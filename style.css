@@ -1,28 +1,30 @@
 h1{
-    font-size: 50px;
-    font-family: Arial;
     font-weight: bold;
     text-align: center;
+    color: chartreuse;
+    font-size: 50px !important;
+    text-shadow: 4px 4px 5px rgba(0,0,0,0,5);
 }
 
 h2{
     font-size: 20px;
-    font-family: Arial;
     font-weight: bold;
 }
 
 
 h3{
-    font-size: 25px;
-    font-family: Arial;
+    font-size: 20px;
     font-weight: bold;
 }
 
 .contenedor{
-    width: 80%;
+    width: 100%;
     display: block;
     margin: auto;
-    border: 1px solid #9999;
+    border: thin solid #585151;
+    border-radius: 10px;
+    align-items: center;
+    padding: 1em;
 }
 
 .contenedor2{
@@ -38,9 +40,39 @@ h3{
     margin: auto;
     hyphens: auto;
     word-break: break-all;
+    background: rgb(59, 194, 171);
     padding: 5px;
+}
+
+.contenedor4{
+    width: 23%;
+    display: inline-table;
+    margin: auto;
+    hyphens: auto;
+    word-break: break-all;
+    padding: 5px;
+    color: red;
+    background: rgb(200, 218, 43);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: arial, helvetica, sans-serif;
 }
 
 input{
     width: 70%;
+}
+
+.btn{
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: #D4C31C;
+    background-color: #4299D4;
+    color: black;
+    margin: 10px 0;
+    display: inline-block;
+    transition: 0.3s;
 }
